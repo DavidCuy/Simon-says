@@ -9,7 +9,7 @@ int correctTune[] = {NOTE_C4, NOTE_C4, NOTE_G4, NOTE_C5, NOTE_G4, NOTE_C5};     
 int correctDuration[] = {100, 100, 100, 300, 100, 300};                                                                                        // Duration of the tunes of the melody of the start of the game
 int pinNote[] = { NOTE_G3, NOTE_A3, NOTE_B3, NOTE_C4 };
 int button[] = {4, 5, 6, 7};                                                                                                                // The four button input pins
-int ledPin[] = {A3, A2, A1, A0};                                                                                                            // LED pins
+int ledPin[] = {A0, A1, A2, A3};                                                                                                            // LED pins
 int buttonState = 0;                                                                                                                        // Button state checker
 int randomArray[100];                                                                                                                       // Intentionally long to store up to 100 inputs (doubtful anyone will get this far)
 int speakerPin = 2;                                                                                                                         // Pin of speaker
